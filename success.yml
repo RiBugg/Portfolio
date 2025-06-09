@@ -1,0 +1,9 @@
+name: Simple Push Success
+
+on: push
+
+jobs:
+  success-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Push successful!"
